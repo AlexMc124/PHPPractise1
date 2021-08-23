@@ -80,13 +80,13 @@
         echo "<br>";
         echo $string;
         echo "<br>";
-
         echo "Substrings";
         echo substr($string, -2, 0);
 
         echo "<hr>";
         echo "<h2>Working with Numbers</h2>";
         echo "<hr>";
+
         echo "Addition : 5 + 9 = ";
         echo 5 + 9;
         echo "<br>";
