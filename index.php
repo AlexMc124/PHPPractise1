@@ -13,17 +13,33 @@
         echo "<p>Practising some php</p>";
         echo "<hr>";
 
-        $name = "Alex";
-        $age = 70;
+        $characterName = "Alex";
+        $characterAge = 70;
 
         echo "<h2>Variables</h2>";
-        echo "There once was a man named $name <br>";
-        echo "He was $age years old <br>";
-        echo "He liked being called $name <br>";
-        echo "but he didnt like being $age <br>";
+        echo "There once was a man named $characterName <br>";
+        echo "He was $characterAge years old <br>";
+        echo "He liked being called $characterName <br>";
+        echo "but he didnt like being $characterAge <br>";
 
         echo "<hr>";
         echo "<h2>Data Types</h2>";
+        echo "<hr>";
+
+        $string = "To be or not to be";
+        $int = 30;
+        $float = 0.99;
+        $bool = false;
+        
+
+        echo "This is a string: $string <br>";
+        echo "This is a int: $int <br>";
+        echo "This is a float: $float <br>";
+        echo "This is a bool: $bool <br>";
+
+        echo "<hr>";
+        echo "<h2>Working with strings</h2>";
+        echo "<hr>";
 
     ?>
 </body>
