@@ -11,6 +11,20 @@
         echo "<h1>Alex Site </h1>";
         echo "<hr>";
         echo "<p>Practising some php</p>";
+        echo "<hr>";
+
+        $name = "Alex";
+        $age = 70;
+
+        echo "<h2>Variables</h2>";
+        echo "There once was a man named $name <br>";
+        echo "He was $age years old <br>";
+        echo "He liked being called $name <br>";
+        echo "but he didnt like being $age <br>";
+
+        echo "<hr>";
+        echo "<h2>Data Types</h2>";
+
     ?>
 </body>
 </html>
