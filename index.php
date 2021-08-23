@@ -45,9 +45,44 @@
         echo "Working with the string: $string <br>";
         echo "Upper: ";
         echo strtoupper($string);
+        echo "<br>";
         echo "Lower: ";
         echo strtolower($string);
+        echo "<br>";
+        echo "String length: ";
+        echo strlen($string);
+        echo "<br>";
+        echo "Indexing : Character at 1 = ";
+        echo $string[0];
+        echo "<br>";
+        echo "Indexing : Character at 7 = ";
+        echo $string[6];
+        echo "<br>";
+        echo "Indexing : Character at 3 = ";
+        echo $string[2];
+        echo "<br>";
 
+        echo "String Replacing : Character at 3 = ";
+        echo $string[4];
+        echo "<br>";
+        $string[4] = "r";
+        echo "String Replacing : Character at 3 = ";
+        echo $string[4];
+        echo "<br>";
+
+        echo "<br>";
+        echo "String Replace using str_replace to replace the word to with I";
+        echo "<br>";
+        echo "<br>";
+        echo $string;
+        echo "<br>";
+        str_replace("to", "I", $string);
+        echo "<br>";
+        echo $string;
+        echo "<br>";
+
+        echo "Substrings";
+        echo substr($string, -2, 0);
     ?>
 </body>
 </html>
