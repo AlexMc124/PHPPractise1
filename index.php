@@ -83,6 +83,47 @@
 
         echo "Substrings";
         echo substr($string, -2, 0);
+
+        echo "<hr>";
+        echo "<h2>Working with Numbers</h2>";
+        echo "<hr>";
+        echo "Addition : 5 + 9 = ";
+        echo 5 + 9;
+        echo "<br>";
+        echo "Subtraction : 5 - 9 = ";
+        echo 5 - 9;
+        echo "<br>";
+        echo "Divide : 5 / 9 = ";
+        echo 5 / 9;
+        echo "<br>";
+        echo "Multiply : 5 * 9 = ";
+        echo 5 * 9;
+        echo "<br>";
+        echo "Modulus : 5 % 9 = ";
+        echo 5 % 9;
+        echo "<br>";
+        echo "int + 25 = ";
+        echo $int + 25;
+        echo "<br><br>";
+        echo "absolute: abs(-100) = ";
+        echo abs(-100);
+        echo "<br><br>";
+        echo "powers: pow(2,4) = ";
+        echo pow(2,4);
+        echo "<br><br>";
+        echo "min: min(2, 10) = ";
+        echo min(2, 10);
+        echo "<br><br>";
+        echo "max: max(2, 10) = ";
+        echo max(2, 10);
+        echo "<br><br>";
+        echo "ciel: ciel(3.55) = ";
+        echo ceil(3.55);
+        echo "<br><br>";
+        echo "floor: floor(3.55) = ";
+        echo floor(3.55);
+
+        
     ?>
 </body>
 </html>
