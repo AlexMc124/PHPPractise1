@@ -11,19 +11,15 @@
     <hr>
     <p>Practising some php. <a href='/PHPinVSCode/index.php'>Link to the Index</a> <a href='/PHPinVSCode/calculator.php'>Link to the Calculator</a></p>
     <hr>
-    This will be used to collect the users Name & Age through a form. <br>
-    This will be done with the $_GET Method and the name of the Form variable.
-    
-    <form action="userinput.php" method="get">
-        Name : <input type="text" name="name"></input>
+    This is an example calculator to add two numbers together.
+
+    <form action="calculator.php" method="get">
+        Number 1 : <input type="number" name="num1"></input>
         <br>
-        Age : <input type="text" name="age"></input>
+        Number 2 : <input type="number" name="num2"></input>
         <br>
         <button type="submit">Submit</button>
     </form>
-    <br>
-    Your name is <?php echo $_GET["name"]?>
-    <br>
-    Your age is <?php echo $_GET["age"]?>
-</body>
+    Answer: <?php echo $_GET["num1"] + $_GET["num2"]?>
+    </body>
 </html>
