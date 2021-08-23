@@ -8,9 +8,12 @@
 </head>
 <body>
     <?php 
-        echo "<h1>Alex Site </h1>";
+        echo "<h1><a href='/PHPinVSCode/index.php'>Alex Site - Home<a></h1>";
         echo "<hr>";
-        echo "<p>Practising some php</p>";
+        echo "Practising some PHP <br> 
+        <a href='/PHPinVSCode/userinput.php'>Link to the User Input</a><br>
+        <a href='/PHPinVSCode/calculator.php'>Link to the Calculator</a><br>
+        <a href='/PHPinVSCode/madlib.php'>Link to the Madlib</a><br>";
         echo "<hr>";
 
         $characterName = "Alex";
@@ -124,6 +127,8 @@
         echo floor(3.55);
 
         
+        
     ?>
+    
 </body>
 </html>

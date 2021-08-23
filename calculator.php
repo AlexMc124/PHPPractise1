@@ -7,9 +7,13 @@
     <title>Alex Practise HTML & PHP Code</title>
 </head>
 <body>
-    <h1>Alex Site </h1>
+    <h1><a href='/PHPinVSCode/index.php'>Alex Site - Calculator<a></h1>
     <hr>
-    <p>Practising some php. <a href='/PHPinVSCode/index.php'>Link to the Index</a> <a href='/PHPinVSCode/calculator.php'>Link to the Calculator</a></p>
+    <p>Practising some php. <br>
+        <a href='/PHPinVSCode/userinput.php'>Link to the User Input</a><br>
+        <a href='/PHPinVSCode/index.php'>Link to the Index</a> <br>
+        <a href='/PHPinVSCode/madlib.php'>Link to the Madlib</a><br>
+    </p>
     <hr>
     This is an example calculator to add two numbers together.
 

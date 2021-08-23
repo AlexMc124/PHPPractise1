@@ -7,15 +7,15 @@
     <title>Alex Practise HTML & PHP Code</title>
 </head>
 <body>
-    <h1><a href='/PHPinVSCode/index.php'>Alex Site - User Input<a></h1>
+    <h1><a href='/PHPinVSCode/index.php'>Alex Site - Madlib<a></h1>
     <hr>
     <p>Practising some php. <br>
         <a href='/PHPinVSCode/index.php'>Link to the Index</a> <br> 
+        <a href='/PHPinVSCode/userinput.php'>Link to the User Input</a><br>
         <a href='/PHPinVSCode/calculator.php'>Link to the Calculator</a><br>
-        <a href='/PHPinVSCode/madlib.php'>Link to the Madlib</a><br>
     </p>
     <hr>
-    This will be used to collect the users Name & Age through a form. <br>
+    This will be used to collect Words from the user and make a story in the style of a Madlib. <br>
     This will be done with the $_GET Method and the name of the Form variable.
     
     <form action="userinput.php" method="get">
