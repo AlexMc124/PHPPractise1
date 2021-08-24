@@ -14,6 +14,8 @@
         <a href='/PHPinVSCode/index.php'>Link to the Index</a> <br>
         <a href='/PHPinVSCode/madlib.php'>Link to the Madlib</a><br>
         <a href='/PHPinVSCode/calculator.php'>Link to the Calculator</a><br>
+        <a href='/PHPinVSCode/assosiativearrays.php'>Link to the Assosiative Arrays</a><br>
+        <a href='/PHPinVSCode/functions.php'>Link to the Functions</a><br>
     </p>
     <hr>
     This is a page used to practise working with Arrays.
@@ -31,11 +33,11 @@
         $fruits = $_POST["fruits"];
         $friends = array("Kevin","Karen","Oscar","Jim");
         for ($x = 0; $x <= count($friends)-1; $x++) {
-            echo "Friend number $x is: $friends[$x] <br>";
+            echo "Friend number " . $x+1 . " is: $friends[$x] <br>";
         }
         echo "<br>";
         for ($x = 0; $x <= count($fruits)-1; $x++) {
-            echo "Friend number $x is: $fruits[$x] <br>";
+            echo "Friend number " . $x+1 . " is: $fruits[$x] <br>";
         }
     ?>
     </body>

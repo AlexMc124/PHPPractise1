@@ -13,6 +13,9 @@
         <a href='/PHPinVSCode/userinput.php'>Link to the User Input</a><br>
         <a href='/PHPinVSCode/index.php'>Link to the Index</a> <br>
         <a href='/PHPinVSCode/madlib.php'>Link to the Madlib</a><br>
+        <a href='/PHPinVSCode/arrays.php'>Link to the Arrays</a><br>
+        <a href='/PHPinVSCode/assosiativearrays.php'>Link to the Assosiative Arrays</a><br>
+        <a href='/PHPinVSCode/functions.php'>Link to the Functions</a><br>
     </p>
     <hr>
     This is an example calculator to add two numbers together.

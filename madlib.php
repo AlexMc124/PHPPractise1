@@ -13,6 +13,9 @@
         <a href='/PHPinVSCode/index.php'>Link to the Index</a> <br> 
         <a href='/PHPinVSCode/userinput.php'>Link to the User Input</a><br>
         <a href='/PHPinVSCode/calculator.php'>Link to the Calculator</a><br>
+        <a href='/PHPinVSCode/arrays.php'>Link to the Arrays</a><br>
+        <a href='/PHPinVSCode/assosiativearrays.php'>Link to the Assosiative Arrays</a><br>
+        <a href='/PHPinVSCode/functions.php'>Link to the Functions</a><br>
     </p>
     <hr>
     This will be used to collect Words from the user and make a story in the style of a Madlib. <br>
