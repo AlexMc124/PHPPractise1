@@ -1,22 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex Practise HTML & PHP Code</title>
-</head>
-<body>
-    <?php 
-        echo "<h1><a href='/PHPinVSCode/index.php'>Alex Site - Home<a></h1>";
-        echo "<hr>";
-        echo "Practising some PHP <br> 
-        <a href='/PHPinVSCode/userinput.php'>Link to the User Input</a><br>
-        <a href='/PHPinVSCode/calculator.php'>Link to the Calculator</a><br>
-        <a href='/PHPinVSCode/madlib.php'>Link to the Madlib</a><br>
-        <a href='/PHPinVSCode/arrays.php'>Link to the Arrays</a><br>
-        <a href='/PHPinVSCode/assosiativearrays.php'>Link to the Assosiative Arrays</a><br>
-        <a href='/PHPinVSCode/functions.php'>Link to the Functions</a><br>";
+<?php include "header.html" ?>
+    <?php
         echo "<hr>";
 
         $characterName = "Alex";
@@ -133,5 +116,4 @@
         
     ?>
     
-</body>
-</html>
+<?php include "footer.html" ?>

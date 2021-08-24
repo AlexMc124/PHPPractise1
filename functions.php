@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex Practise HTML & PHP Code</title>
-</head>
-<body>
-    <h1><a href='/PHPinVSCode/index.php'>Alex Site - Calculator<a></h1>
-    <hr>
-    <p>Practising some php. <br>
-        <a href='/PHPinVSCode/userinput.php'>Link to the User Input</a><br>
-        <a href='/PHPinVSCode/index.php'>Link to the Index</a> <br>
-        <a href='/PHPinVSCode/madlib.php'>Link to the Madlib</a><br>
-        <a href='/PHPinVSCode/arrays.php'>Link to the Arrays</a><br>
-        <a href='/PHPinVSCode/assosiativearrays.php'>Link to the Assosiative Arrays</a><br>
-        <hr>
-    </p>
+<?php include "header.html" ?>
     <p> This section is used to demonstrate the use of functions in php. </p><hr>
     <p> This is a say hello function </p>
     <?php
@@ -58,5 +40,4 @@
             echo ("Sorry I don't know who you are!!");
         }
     ?>
-    </body>
-</html>
+<?php include "footer.html" ?>
